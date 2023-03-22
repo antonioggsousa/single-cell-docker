@@ -4,20 +4,12 @@
 
 <br>
 
----
-
-<br>
-
 ## Contents
 
 * [Build image](#build-image)
 
 * [Run container](#run-container)
 
-
-<br>
-
----
 
 <br>
 
@@ -48,10 +40,6 @@
 `docker buildx inspect --bootstrap`
 
 `docker buildx build --no-cache --push --platform linux/amd64,linux/arm64 -t aggode/sctoolkit:latest -f Dockerfile-cross-platform .`
-
-<br>
-
----
 
 <br>
 
