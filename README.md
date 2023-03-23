@@ -29,7 +29,7 @@
 
 2. Alternative: Build & push the image to personal docker hub (aggode) - compatible `amd64` & `arm64`: 
 
->ongoing: can't install system library `llvm-10` in w/ base image `rocker/rstudio:latest-daily`):
+>ongoing: can't install system library `llvm-10` w/ base image `rocker/rstudio:latest-daily`):
 
 `docker run --rm --privileged tonistiigi/binfmt`
 
