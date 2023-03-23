@@ -89,9 +89,6 @@ RUN R --no-echo --no-restore --no-save -e "BiocManager::install('DropletUtils')"
 RUN R --no-echo --no-restore --no-save -e "BiocManager::install('scran')" 
 RUN R --no-echo --no-restore --no-save -e "BiocManager::install('scater')"
 
-# Run command:
-CMD ["/bin/bash"]
-
 # Descriptions: 
 MAINTAINER António Sousa (aggode@utu.fi)
 LABEL Description: Toolkit for reproducible single-cell data analyses
