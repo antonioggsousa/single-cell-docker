@@ -31,7 +31,7 @@
 
 >ongoing: can't install system library `llvm-10` w/ base image `rocker/rstudio:latest-daily`):
 
-`docker run --rm --privileged tonistiigi/binfmt`
+`docker run --privileged --rm tonistiigi/binfmt --install all`
 
 `docker buildx create --name mybuilder`
 
